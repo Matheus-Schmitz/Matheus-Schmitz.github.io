@@ -16,8 +16,8 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, output, ruby,
-section, summary, time, mark, audio, video, nav, menu {
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -26,7 +26,7 @@ section, summary, time, mark, audio, video, nav, menu {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, a, section, nav {
+footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
@@ -3441,7 +3441,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-			body.is-preload #intro:not(.hidden) + #header  {
+			body.is-preload #intro:not(.hidden) + #header + #nav {
 				-moz-transform: translateY(4rem);
 				-webkit-transform: translateY(4rem);
 				-ms-transform: translateY(4rem);
@@ -3752,7 +3752,6 @@ input, select, textarea {
 			}
 
 		}
-		
 
 /* Main */
 
@@ -4688,4 +4687,3 @@ input, select, textarea {
 		}
 
 	}
-	
