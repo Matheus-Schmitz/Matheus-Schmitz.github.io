@@ -10,7 +10,7 @@
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
 		$header = $('#header'),
-		 $nav = $('#nav'),
+		$nav = $('#nav'),
 		$main = $('#main'),
 		// $navPanelToggle, $navPanel, $navPanelInner;
 
