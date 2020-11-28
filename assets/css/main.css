@@ -17,7 +17,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, output, ruby,
-section, summary, time, mark, audio, video {
+section, summary, time, mark, audio, video, nav, menu {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -26,7 +26,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, a, section {
+footer, header, hgroup, a, section, nav {
 	display: block;}
 
 body {
