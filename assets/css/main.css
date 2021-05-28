@@ -3617,13 +3617,13 @@ input, select, textarea {
 		transition: transform 1s ease, opacity 1s ease;
 		background: rgba(255, 255, 255, 0.175);
 		height: 4rem;
-		line-height: 4rem;
+		line-height: 2rem;
 		margin: -4rem auto 0 auto;
-		overflow: hidden;
+		overflow: clip;
 		padding: 0 2rem 0 0;
 		position: relative;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
+		max-width: 79rem;
 		z-index: 2;
 	}
 
@@ -3760,7 +3760,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
+		max-width: 79rem;
 		z-index: 2;
 	}
 
@@ -3959,7 +3959,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
+		max-width: 79rem;
 		z-index: 2;
 	}
 
@@ -4396,7 +4396,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		margin: 4rem auto 8rem auto;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
+		max-width: 79rem;
 		z-index: 2;
 	}
 
@@ -4620,7 +4620,6 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7rem;
 		}
 
